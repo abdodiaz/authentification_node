@@ -1,0 +1,9 @@
+GET http://localhost:7000/users
+###
+POST http://localhost:7000/users
+Content-Type: application/json
+
+{
+    "name":"dazia",
+    "password":"123"
+}
